@@ -1,0 +1,36 @@
+.creaters_details {
+    background: #ebf6fc;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 0 4px 28px 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.creaters_details h2 {
+    font-size: calc(16px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color: #2f6999;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.creaters_details h3 {
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color: #3ea6ff;
+    font-weight: 500;
+    margin: 0;
+}
+.bgClr {
+    background: #faf9fe !important;
+}
+.mbAdd {
+    margin-bottom: 48px !important;
+}
+@media screen and (min-width:450px) and (max-width:767px) {
+    .creaters_details {
+        width: 60%;
+        margin: 10px auto;
+   }
+}
+@media screen and (max-width:767px) {
+    .mbAdd {
+        margin-bottom: 20px !important;
+    }
+}

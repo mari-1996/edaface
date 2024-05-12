@@ -1,0 +1,32 @@
+.collection_card {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.084);
+    border-radius: 14px;
+    margin: 20px;
+    background-color: white !important;
+}
+.collection_card h2 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    padding: 18px 0;
+    font-weight: 600;
+}
+.py_60 {
+    background: #faf9fe !important;
+    padding: 60px 0 30px 0;
+}
+.section_title {
+    margin-bottom: 34px !important;
+}
+.slick-prev {
+    left: 14px !important;
+    z-index: 99;
+}
+.slick-next {
+    right: 14px !important;
+}
+@media screen and (max-width:767px) {
+    .bgImg {
+        height: 100% !important;
+   }
+}

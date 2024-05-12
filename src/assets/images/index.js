@@ -1,0 +1,8 @@
+export const LOGO = require('./logo.png')
+export const NOTES = require('./header_notes.png')
+export const BANNER_HEADER = require('./bannerheader.png')
+export const COLLECTION_IMG = require('./hotcollectionthree.png')
+export const LEFT_ARROW = require('./left.png')
+export const RIGHT_ARROW = require('./right.png')
+export const CREATERS = require('./creatersimg.png')
+export const AUCTION_IMG = require('./liveauctions.png')

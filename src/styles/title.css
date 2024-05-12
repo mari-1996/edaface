@@ -1,0 +1,12 @@
+.section_title {
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:767px) {
+    .section_title {
+        font-size: 24px !important;
+   }
+}

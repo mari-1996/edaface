@@ -1,0 +1,42 @@
+.starStyle span {
+    font-size: 19px !important;
+    line-height: 15px;
+}
+.addedCart h2 {
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+.addedCart {
+    margin-bottom: 28px !important;
+}
+.mb_5 {
+    margin-bottom: 56px !important;
+}
+.loadMore_btn button {
+    background: #2f69a6;
+    font-weight: 500;
+    height: 44px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 24px;
+    border-radius: 10px;
+}
+.loadMore_btn {
+    text-align: center;
+    transition: 0.3s all;
+    padding: 32px 0 0 0;
+}
+.loadMore_btn button:hover {
+    background: #154b77 !important;
+}
+@media screen and (max-width:767px) {
+    .auctions_section {
+        padding-top:0 !important;
+        padding-bottom:0 !important;
+   }
+    .py_60 {
+        background: #faf9fe !important;
+        padding: 30px 0 30px 0 !important;
+   }
+    .loadMore_btn {
+        padding: 0 0 0 0 !important;
+   }
+}
